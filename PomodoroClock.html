@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>
+            Pomodoro Timer
+        </title>
+        <link rel = 'stylesheet' href = 'PomodoroClock.css'>
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+        <script type='text/javascript' src='PomodoroClock.js'></script>
+        <h1>Athul's Pomodoro Timer</h1>
+    </head>
+    
+    <body>
+        <div class = 'time-select-bar'>
+            <div class = 'setTimeArea' id = 'breakLength'>
+                <div class = 'timeAreaContainer' id = 'breakContainer'>
+                    <h5>Break Length</h5>
+                    <div class = 'time-button-selector'>
+                        <button class = 'plusMinus' id = 'break-minus' style='display: inline'>
+                            -
+                        </button>
+                        <p class = 'setTimeText' id = 'break-time' style='display: inline'></p>
+                        <button class = 'plusMinus' id = 'break-plus' style='display: inline'>
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class = 'setTimeArea' id = 'sessionLength'>
+                <div class = 'timeAreaContainer' id = 'sessionContainer'>
+                    <h5>Session Length</h5>
+                    <div class = 'time-button-selector'>
+                        <button class = 'plusMinus' id = 'session-minus' style='display: inline'>
+                            -
+                        </button>
+                        <p class = 'SetTimeText' id='session-time' style='display: inline'></p>
+                        <button class = 'plusMinus' id = 'session-plus' style='display: inline'>
+                            +
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = 'sessionArea'>
+            <div class = 'sessionAreaContainer'>
+                <h2 id = 'sessionTextHead'></h2>
+                <p id='mainTextTime'></p>
+            </div>
+        </div>
+        <div class = 'operator-buttons-area'>
+            <div class = 'operator-buttons-container'>
+                <button class = 'operator-buttons' id = 'start-timer'>Start</button>
+                <button class = 'operator-buttons' id = 'pause-timer'>Pause</button>
+                <button class = 'operator-buttons' id = 'reset-timer'>Reset</button>
+            </div>
+        </div>
+    </body>
+</html>

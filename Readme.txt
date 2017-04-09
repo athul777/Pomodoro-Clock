@@ -1,0 +1,1 @@
+This is an implementation of the "Pomodoro Clock". It periodically switched between a timer for doing work and a break timer. 

@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:900);
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+
+* {
+
+}
+
+body {
+    background-color: #348899;
+    color: white;
+    min-width: 800px;
+    padding: 0px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h5 {
+    opacity: 1;
+    font-size: 20px;
+}
+
+.time-select-bar {
+    display: flex;
+    width: 60%;
+    min-width: 450px;
+    margin: 0 auto;
+}
+
+.setTimeArea {
+    width: 200px;
+    height: 160px;
+    background-color: #343642;
+    border-radius: 4px;
+    margin: 10px auto;
+}
+
+.timeAreaContainer {
+    text-align: center;
+}
+
+.time-button-selector {
+    
+}
+
+button.plusMinus {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #962D3E;
+    font-weight: 700;
+    color: white;
+    margin: 0px 5px 0px 5px;
+    outline: none;
+}
+
+button.plusMinus:hover {
+    background-color: white;
+    color: #962D3E; 
+}
+
+.setTimeText {
+    font-size: 20px;
+}
+
+.sessionArea {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #962D3E;
+    margin: 0 auto 0 auto;
+    cursor: default;
+}
+
+.sessionAreaContainer {
+    text-align: center;
+    padding: 80px;
+}
+
+#mainTextTime {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+}
+
+.operator-buttons-area {
+    margin: 26px auto 16px auto;
+}
+
+.operator-buttons-container {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.operator-buttons {
+    background-color: #343642;
+    border: 0px;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    font-weight: 800;
+    margin: 0px 5px 0px 5px;
+    outline: none;
+}
+
+.operator-buttons:hover {
+    background-color: #348899;
+    border: 2px solid #343642;
+    color: black;
+}
